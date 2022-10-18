@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(void)
+{
+    double data[] = {7, 0.5, 2, 0.3, 0.1, 0.0, -10, 528.2, 8.0, 7.2, 2.3, 1100, 222};
+
+
+    double length = 13;
+
+
+    for (int i = 0; i < length; i++)
+    {
+    
+    for (int z = 0; z < (length - 1); z++)
+    {
+    
+    if (data[z] > data[z + 1])
+    {
+    
+        double temp1 = data[z];
+        data[z] = data[z + 1];
+        data[z + 1] = temp1;
+                                   }
+                                   }
+    }
+    for (int i = 0; i < length; i++)
+
+    printf("data[%d] = %lg\n", i, data[i]);
+
+    return 0;
+}
