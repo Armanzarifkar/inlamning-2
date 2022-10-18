@@ -1,1 +1,5 @@
-
+På den här situationen jag kunna säga att de båda metoderna kan vara likvärdiga. 
+Det är bra att vi kunna öva på båda och lära de och inte glömma. 
+På detta fallet det handlar om fleriga datamängder och flera variabler därför jag tycker att pekare är mer användbart.
+Men om det handlar om mindre tal eller datamängder och kan det nog vara smidigare att bara kopiera med runt i koden, speciellt om det inte mer är för endamål som det.
+På slutligen i längden vinner pekare.
